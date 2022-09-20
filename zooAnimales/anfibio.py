@@ -6,7 +6,7 @@ class Anfibio(Animal):
     salamandras = 0
 
     def __init__(self, nombre, edad, habitat, genero, colorPiel, venenoso):
-        Reptil._listado.append(self)
+        Anfibio._listado.append(self)
         Animal._totalAnimales += 1
         self._nombre = nombre
         self._edad = edad
